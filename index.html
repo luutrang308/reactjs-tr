@@ -5,21 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        div{
-            background: green;
-        }
-    </style>
 </head>
 <body>
    
-    <div></div>
-    <div style="width: 50%; height: 100px; background: red;"> dòng số 1 </div>
-    
-    <p> dòng số 3 :  thẻ p </p>
-    <span> dòng số 4 :  thẻ span </span>
-    <div href="https://facebook.com" target="_blank"> Facebook </div>
-    <a href="https://facebook.com" title="" target="_blank" style="color: red;"> Facebook </a>
+   <div class="form_1">
+    <table>
+        <tr>
+            <th>Full name</th>
+            <th>Age</th>
+            <th>Job Title</th>
+            <th>Favorite meal</th>
+        </tr>
+        <tr>
+            <td>Corey Ander</td>
+            <td>26</td>
+            <td>Restaurant Manager</td>
+            <td>Tagine</td>
+        </tr>
+        <tr>
+            <td>Kerry Oki</td>
+            <td>42</td>
+            <td>Sound Engineer</td>
+            <td>Shephred's pie</td>
+        </tr>
+        <tr>
+            <td>Levy Tate</td>
+            <td>32</td>
+            <td>Therapist</td>
+            <td>Chocolate brownie</td>
+        </tr>
+        <tr>
+            <td>Miles A.Head</td>
+            <td>34</td>
+            <td>Mechanic</td>
+            <td>Pizza</td>
+        </tr>
+        <tr>
+            <td>Upton O.Goode</td>
+            <td>59</td>
+            <td>Counselor</td>
+            <td>Mac 'n' cheese</td>
+        </tr>
+    </table>
+   </div>
+
+   <div class="form_2">
+       <h1>Đăng kí thành viên</h1>
+       <form>
+        <table>
+            <tr>
+                <th>Nội dung</th>
+                <th>Giá trị</th>
+            </tr>
+            <tr>
+                <td>Họ tên: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mật khẩu: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td><input type="file" id="myfile" name="myfile"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Tuổi: </td>
+                <td>
+                    <select name="cars" id="age">
+                        <option value="a1">1 tuổi</option>
+                        <option value="a2">2 tuổi</option>
+                        <option value="a3">3 tuổi</option>
+                        <option value="a4">4 tuổi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính: </td>
+                <td>
+                    <input type="radio" id="male" name="gioitinh" value="Nam">
+                    <label for="nam">Male</label><br>
+                    <input type="radio" id="female" name="gioitinh" value="Nu">
+                    <label for="nu">Female</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích: </td>
+                <td>
+                    <input type="checkbox" id="dabong" name="db" value="">
+                    <label for="db"> Đá bóng</label><br>
+                    <input type="checkbox" id="caulong" name="cl" value="">
+                    <label for="cl"> Cầu lông</label><br>
+                    <input type="checkbox" id="duathuyen" name="dt" value="">
+                    <label for="dt"> Đua thuyền</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Ghi chú: </td>
+                <td>
+                    <textarea  name="w3review" rows="4" cols="20">
+                        Buổi học đầu tiên về HTML
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Đăng kí">
+       </form>
+   </div>
 
 </body>
 </html>
