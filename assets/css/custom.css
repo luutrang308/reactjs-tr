@@ -3,53 +3,52 @@ h2 {
   margin-top: 50px;
 }
 
-.table_1 {
+.table_1_b4 {
   width: 400px;
   height: 300px;
   overflow: scroll;
   margin: auto;
 }
-.table_1 table {
+.table_1_b4 table {
   border-collapse: collapse;
   margin: auto;
-  width: 200%;
+  width: 240%;
   border-collapse: collapse;
   margin: auto;
 }
-.table_1 table tr:first-child {
+.table_1_b4 table tr:first-child {
   background-image: linear-gradient(to right, #994285, #658190);
 }
-.table_1 table tr:nth-child(3n) {
+.table_1_b4 table tr:nth-child(3n) {
   background: #3498db;
 }
-.table_1 table tr:nth-child(3n+2) {
+.table_1_b4 table tr:nth-child(3n+2) {
   background: #1abc9c;
 }
-.table_1 table tr:nth-child(3n+2) {
+.table_1_b4 table tr:nth-child(3n+2) {
   background: #2ecc71;
 }
-.table_1 table th, .table_1 table td {
+.table_1_b4 table th, .table_1_b4 table td {
   border: 1px solid #3c3c3c;
 }
-.table_1 table th {
+.table_1_b4 table th {
   padding: 20px 0;
   color: #fff;
 }
-.table_1 table th img {
+.table_1_b4 table th img {
   margin-right: 15px;
 }
-.table_1 table td {
+.table_1_b4 table td {
   padding: 20px;
 }
 
-.table_2 table {
+.table_2_b4 table {
   margin: auto;
   border: none;
 }
-.table_2 th, .table_2 td {
+.table_2_b4 th, .table_2_b4 td {
   border-radius: 4px;
   border: 1px solid #fff;
-  border: 1px solid #ee5251;
   background: #ee5251;
   width: 60px;
   padding: 20px;
