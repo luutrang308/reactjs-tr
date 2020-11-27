@@ -492,3 +492,44 @@ body.bootstrap3_page {
     }
   }
 }
+.box_about_item {
+  padding: 0;
+  .box {
+    text-align: center;
+    color: #fff;
+    padding: 45px;
+    h2 {
+      text-transform: uppercase;
+    }
+    button {
+      border: none;
+      border-radius: 25px;
+      padding: 7px 30px;
+      box-shadow: 1px 5px 10px #00000020;
+      text-transform: uppercase;
+    }
+    &:first-child {
+      background: #4dabae;
+      button {
+        background: #5bb7bb;
+      }
+    }
+    &:last-child {
+      background: #6ac8af;
+      button {
+        background: #79d1ba;
+      }
+    }
+  }
+}
+.section_about_us {
+  .container {
+    .row {
+      display: flex;
+      flex-flow: row wrap;
+    }
+  }
+}
+.box_about_item_large {
+  padding: 0;
+}

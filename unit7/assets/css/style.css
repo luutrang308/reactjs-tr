@@ -489,3 +489,43 @@ body.bootstrap3_page {
   font-family: fontawesome;
   font-style: normal;
 }
+
+.box_about_item {
+  padding: 0;
+}
+.box_about_item .box {
+  text-align: center;
+  color: #fff;
+  padding: 45px;
+}
+.box_about_item .box h2 {
+  text-transform: uppercase;
+}
+.box_about_item .box button {
+  border: none;
+  border-radius: 25px;
+  padding: 7px 30px;
+  box-shadow: 1px 5px 10px #00000020;
+  text-transform: uppercase;
+}
+.box_about_item .box:first-child {
+  background: #4dabae;
+}
+.box_about_item .box:first-child button {
+  background: #5bb7bb;
+}
+.box_about_item .box:last-child {
+  background: #6ac8af;
+}
+.box_about_item .box:last-child button {
+  background: #79d1ba;
+}
+
+.section_about_us .container .row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box_about_item_large {
+  padding: 0;
+}
