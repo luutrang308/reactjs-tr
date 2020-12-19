@@ -1,14 +1,14 @@
 // 1
 function(data, numLoop){
-  var result = [];
-    for(var i = 0; i < numLoop; i++){
+  let result = [];
+    for(let i = 0; i < numLoop; i++){
 	  result.push(data);
     }
     return result;
 }
 
 function(data, numLoop){
-  var result = [];
+  let result = [];
    while(numLoop > 0){
 	result.push(data);
 	numLoop--;
@@ -18,7 +18,7 @@ function(data, numLoop){
 
 // 2
 function(arrs){
-  var reversed = [];
+  let reversed = [];
 	arrs.forEach(function(data) {
     reversed.unshift(data);
   });
